@@ -303,9 +303,10 @@ background: url(../assets/handshake.jpg);
 background-repeat: no-repeat;
 border-radius: 16px;
 width: 1140px;
-height: 313px;
+height: 314px;
 align-items: center;
-box-shadow: 48px rgba(0, 0, 0, 0.2);}
+background-size: cover;
+background-position: 100%;}
 
 .support-section-container h3
 {color: rgb(255, 255, 255);
