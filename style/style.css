@@ -93,7 +93,10 @@ font-weight: 800;}
 {color: rgb(13, 19, 33);
 opacity: 0.7;
 font-size: 16px;
-font-weight: 400;}
+font-weight: 400;
+margin-top: 24px;
+width: 900px;
+text-align: center;}
 
 .wwb-content-one
 {background: #FFFFFF 100%;
@@ -295,7 +298,7 @@ padding-top: 24px;}
 
 .support-section-container
 {margin: 48px auto;
-background: url(/assets/handshake.jpg);
+background: url(../assets/handshake.jpg);
 background-repeat: no-repeat;
 border-radius: 16px;
 width: 1140px;
