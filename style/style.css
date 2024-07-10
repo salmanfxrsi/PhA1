@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*
+{box-sizing: border-box;
+margin: 0;
+padding: 0;}
+
+body 
+{font-family: "Azeret Mono", monospace;}
+
+/* shared style */
+
+.wwb-button
+{width: 149px;
+height: 48px;
+box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+padding: 12px 20px 12px 20px;
+font-size: 20px;
+font-weight: 500;
+margin-top: 32px;}
+
+/* banner section style start here */
+
+.banner-container
+{background-position: center;
+background-size: cover;    
+background-repeat: no-repeat;
+width: 100%;
+min-height: 652px;
+margin: 0 auto;
+background: url(../assets/Hero-bg.png);
+margin-top: 131px;}
+
+.banner-content
+{display: flex;
+flex-direction: column;
+justify-items: center;
+align-items: center;}
+
+.banner-content-image
+{width: 240.28px;
+height: 240px;
+margin-top: 23px;}
+
+.banner-content h1
+{color: rgb(13, 19, 33);
+font-size: 45.5px;
+font-weight: 800;
+width: 948px;
+height: 130px;
+text-align: center;
+margin-top: 32px;}
+
+.banner-content p
+{color: rgb(13, 19, 33);
+opacity: 0.7;
+font-size:15px;
+font-weight: 400;
+width: 852px;
+height: 52px;
+text-align: center;}
+
+.banner-button
+{border-radius: 8px;
+background: rgb(13, 19, 33);
+width: 208px;
+height: 66px;
+font-size: 20px;
+font-weight: 600;
+color: rgb(255, 255, 255);
+padding: 21px 24px 21px 24px;
+margin-top: 32px;
+cursor: grab;}
+
+ /* why web development(wwb) section styles start here  */
+
+ .wwb-container
+{background: #0D132105 2%;
+margin: 74px 152px 0px 148px;
+padding: 80px 97px 0px 80px;
+display: flex;
+flex-direction: column;
+align-items: center;}
+
+.wwb-title
+{color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;}
+
+.wwb-subtitle
+{color: rgb(13, 19, 33);
+opacity: 0.7;
+font-size: 16px;
+font-weight: 400;}
+
+.wwb-content-one
+{background: #FFFFFF 100%;
+margin: 48px 97px;
+padding: 48px;
+width: 946px;
+height: 336px;
+border-radius: 16px;}
+
+.wwb-content-one h5
+{color: rgba(13, 19, 33, 0.7);
+font-size: 24px;
+font-weight: 700;
+width: 560px;
+text-align: left;
+margin-top: 10px;}
+
+.wwb-content-one p 
+{color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+opacity: 0.7;
+width: 600px;
+margin-top: 16px;}
+
+.wwb-image-one
+{width: 259.56px;
+height: 217.01px;}
+
+.wwb-content-two
+{background: #FFFFFF 100%;
+margin: 48px 97px;
+padding: 48px;
+width: 946px;
+height: 336px;
+border-radius: 16px;}
+
+.wwb-content-two h5
+{color: rgba(13, 19, 33, 0.7);
+font-size: 24px;
+font-weight: 700;
+width: 760px;
+margin-top: 10px;}
+
+.wwb-content-two p 
+{color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+opacity: 0.7;
+width: 900px;
+margin-top: 16px;}
+
+.wwb-image-two
+{width: 223.2px;
+height: 208.85px;}
+
+.wwb-image-three
+{width: 206.4px;
+height: 187.32px;}
+
+
+/* my inspiration (mi) section style start here */
+
+.mi-container
+{align-items: center;
+display: flex;
+flex-direction: column;
+margin-left: 180px;
+margin-right: 184px;
+margin-top: 88px;}
+
+.mi-container h3
+{color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+height: 37px;}
+
+.mi-container p
+{color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+opacity: 0.7;
+margin-top: 24px;
+margin-bottom: 48px;
+width: 810px;
+text-align: center;}
+
+.mi-youtube-video
+{border-radius: 16px;
+padding: 32px;
+border: 1px solid rgba(13, 19, 33, 0.2);}
+
+.mi-youtube-video-radius
+{border-radius: 16px;}
+
+/* my current target (mct) style start here */
+
+.mct-learn-more
+{color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 700;
+text-decoration-line: underline;
+text-decoration-color: rgb(13, 19, 33);
+margin: 24px 0;}
+
+.mct-container
+{margin: 151px;
+width: auto;
+height: 460px;}
+
+.mct-caption h5
+{color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+text-align: center;}
+
+.mct-caption p
+{margin-top: 24px;
+color: rgb(13, 19, 33);
+opacity: 0.7;
+font-size: 16px;
+font-weight: 400;
+text-align: center;}
+
+.mct-box
+{display: flex;
+justify-content: center;
+column-gap: 24px;}
+
+.mct-box-one
+{background: rgba(255, 76, 30, 0.05);
+margin-top: 88px;    
+text-align: left;
+width: 364px;
+height: 330px;
+padding: 40px;
+border-radius: 16px;}
+
+.mct-box-one h5
+{color: rgb(13, 19, 33);
+font-size: 24px;
+font-weight: 800;
+padding-top: 24px;}
+
+.mct-box-one p
+{color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+padding-top: 24px;}
+
+.mct-box-two
+{background: rgba(0, 76, 232, 0.05);
+margin-top: 88px;    
+text-align: left;
+width: 364px;
+height: 330px;
+padding: 40px;
+border-radius: 16px;}
+
+.mct-box-two h5
+{color: rgb(13, 19, 33);
+font-size: 24px;
+font-weight: 800;
+padding-top: 24px;}
+
+.mct-box-two p
+{color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+padding-top: 24px;}
+
+.mct-box-three
+{background: rgba(255, 223, 0, 0.05);
+margin-top: 88px;    
+text-align: left;
+width: 364px;
+height: 330px;
+padding: 40px;
+border-radius: 16px;}
+
+.mct-box-three h5
+{color: rgb(13, 19, 33);
+font-size: 24px;
+font-weight: 800;
+padding-top: 24px;}
+
+.mct-box-three p
+{color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+padding-top: 24px;}
+
+
+
+
+
+
+/* support section style start here */
+
+.support-section-container
+{margin: 48px auto;
+background: url(/assets/handshake.jpg);
+background-repeat: no-repeat;
+border-radius: 16px;
+width: 1140px;
+height: 313px;
+align-items: center;
+box-shadow: 48px rgba(0, 0, 0, 0.2);}
+
+.support-section-container h3
+{color: rgb(255, 255, 255);
+font-size: 32px;
+font-weight: 700;
+text-align: center;
+padding-top: 64px;}
+
+.support-section-container p
+{font-size: 16px;
+font-weight: 400;
+color: rgb(255, 255, 255);
+opacity: 0.7;
+padding-top: 16px;
+text-align: center;}
+
+.support-section-comment-bar
+{margin-top: 40px;
+margin-left: 200px;
+width: 548px;
+height: 57px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+color: rgba(13, 19, 33, 0.4);
+font-size: 16px;
+font-weight: 400;
+padding: 19px 0px 19px 20px;}
+
+.support-section-submit-bar
+{width: 120px;
+height: 57px;
+margin-right: 200px;
+background: rgb(255, 255, 255);
+border-radius: 8px;
+color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
+text-align: center;
+cursor: grab;}
+
+/* info section style start here  */
+
+.info-container
+{border-radius: 16px;
+width: auto;
+height: 100px;
+margin: 80px 0 0;
+background-color: #0D132108;
+display: flex;
+justify-content: space-between;
+padding: 38.5px 150px;}
+
+.info-title
+{font-size: 20px;
+font-weight: 600;}
+
+.info-image
+{display: flex;}
